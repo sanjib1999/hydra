@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test layout</title>
+</head>
+<body>
+    <h1>name:-{{name}}</h1>
+    <h3>phone no. {{number}}</h3>
+    <h3>email:- {{email}}</h3>
+    <h1>skills</h1>
+    {%for skill in skills%}
+    
+        <h4> {{skill}} </h4>
+    {% endfor %}
+    <h3>career objective: {{objective}}</h3>
+</body>
+</html>
